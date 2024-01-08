@@ -1,2 +1,2 @@
 # PortFolio
-Page for 3d projects
+Page for projects
