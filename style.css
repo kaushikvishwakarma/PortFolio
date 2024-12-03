@@ -146,10 +146,10 @@ section{
 .section_pic-container{
     display: flex;
     height: 400px;
-    /* width: 400px; */
     margin: auto 0;
     border-radius: 4%;
     overflow: hidden;
+    transition: all 0.5s ease-in-out;
 }
 .section_text{
     align-self: center;
@@ -229,11 +229,11 @@ section{
 .btn-container{
     gap: 1.5rem;
 }
-/* .about-containers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+} 
 .section_pic-container{
     width: 1500px;
 }
@@ -321,15 +321,14 @@ article .icon{
     cursor: default;
 }
 .grayscale{
-    /* filter: grayscale(1) contrast(100%) brightness(1); */
     filter: grayscale(100%);
-    transition: all 0.45s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transform-origin: center;
+    transform: scale(1);
 }
 .grayscale:hover{
-    /* position: absolute; */
     filter: grayscale(50%);
-    height: 80vh;
-
+    transform: scale(1.1);
 }
 /* Projects */
 
